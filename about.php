@@ -39,20 +39,9 @@
                     <!--Brand--><a class="brand" href="index.html"><img src="images/logo-default-296x52.png" alt="" width="148" height="26"/></a>
                   </div>
                 </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap">
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <?php
+                include_once('templates/header.php')
+                ?>
                 <div class="rd-navbar-collapse">
                   <ul class="socialite-list">
                     <li><a class="icon novi-icon socialite fa-facebook" href="#"></a></li>
@@ -484,21 +473,9 @@
           </div>
         </div>
       </section>
-      <footer class="section footer-classic bg-default">
-        <div class="container">
-          <div class="row row-15">
-            <div class="col-sm-6">
-              <p class="rights"><span>DJ Fox</span><span>&nbsp;</span><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>\&nbsp;</span>All Rights Reserved
-                \ Design by <a href="https://www.templatemonster.com/">TemplateMonster</a>
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-contact"><a href="contacts.html">
-                  <div class="icon novi-icon mdi mdi-email-outline"></div>Contact Me</a></div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php
+    include_once('templates/footer.php')
+    ?>
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
